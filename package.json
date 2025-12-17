@@ -1,0 +1,18 @@
+{
+  "name": "oracle-mcp",
+  "version": "1.0.0",
+  "description": "Oracle Cloud Infrastructure MCP Server for Claude Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["oracle", "oci", "cloud", "mcp"],
+  "author": "Matthew Karsten",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "oci-sdk": "^2.122.1"
+  }
+}
